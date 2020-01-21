@@ -14,7 +14,8 @@ When the state is C, 80% chance it'll go to B,  20% chance it'll go to A.
 
 Here:
 
-
+[[0.8,0.2,0.0],
+[0.0,0.0,1.0],[0.2,0.8,0.0]]
 
 Don't forget to commit and push the file.
 
