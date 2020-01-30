@@ -25,6 +25,11 @@ for x in content:
     content.append( x.strip() )
 
 # print the number of lines in the file
+count = 0
+
+
+
+
 
 # Print the entire sonnet file to the console, without the extra line breaks!
 

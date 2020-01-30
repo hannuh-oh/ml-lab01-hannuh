@@ -19,7 +19,7 @@ looking for till you find it.
 
 r = requests.get(startURL)
 
-"""
+
 Explore in the console:
 r.status_code
 r.text
@@ -37,20 +37,20 @@ print(first)
 # try the third - named generically.
 somelink = soup.find_all("a", class_="link")[3]
 print(somelink)
-"""
+
 
 
 #
-#  Regular Expressions
-#  Try different test strings and run this code...
+# Regular Expressions
+# Try different test strings and run this code...
 # In the console.
 # Try out different patterns and test strings!
 # Leave your own experimentation in here.
 #
 
-import re
+import requests
 
-"""
+
 # an r-string is specifically for regular expressions.
 regex = r".*/(\d+)"
 test_str = "ebooks/12345x"
@@ -62,9 +62,9 @@ matches = re.match(regex, test_str, re.IGNORECASE)
 # print out the first match group.  The zeroeth match group is the entire matched string....
 if matches:
     print("Match of digit part is: ", matches[1])
-"""
 
 
+from bs4 import BeautifulSoup
 
 # find a random set of gutenberg texts in english
 # And parse it into beautiful soup!

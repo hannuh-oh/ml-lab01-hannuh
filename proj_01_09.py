@@ -85,7 +85,6 @@ def get_gutenTexts(numTexts = 2):
     return texts
 
 
-
 if __name__ == '__main__':
     texts = get_gutenTexts()
 
